@@ -9,9 +9,11 @@ function App() {
         <p>
           Hello World!
         </p>
+        <p>It is {new Date().toLocaleTimeString()}.</p>
       </header>
     </div>
   );
 }
+
 
 export default App;
