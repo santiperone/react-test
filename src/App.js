@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Clock from './Clock';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         <p>
           Hello World!
         </p>
-        <p>It is {new Date().toLocaleTimeString()}.</p>
+        <Clock />
       </header>
     </div>
   );
